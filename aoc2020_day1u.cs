@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class aoc_day1u : MonoBehaviour {
+public class aoc2020_day1u : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
