@@ -753,8 +753,8 @@ acc +6";
         		p2_accum = 0;
         		op_check.Clear();
         		flag = 0;
-        		int i = 0;
-	        	for (;i<p2_op_arr.Length;)
+        		
+	        	for (int i=0;i<p2_op_arr.Length;)
 	        	{
 	        		
 	        		string math_arg;
@@ -835,7 +835,7 @@ acc +6";
 	        		}
 	        		
 	        	}
-	        	if (flag == 0 && i == op_arr.Length)
+	        	if (flag == 0)
 	        	{
 	        	Console.WriteLine("Day 8 part 2 answer is: " + p2_accum);
 	        	break;
